@@ -4,10 +4,10 @@ import logo from '../../imagens/logo.svg'
 
 function Logo() {
     return (
-        <div classname="logo">
+        <div className="logo">
             <img src={logo} 
             alt="logo" 
-            classname="logo-img">
+            className="logo-img">
             </img>
             <p><strong>Livroshub</strong></p>
         </div>

@@ -6,9 +6,9 @@ const icones = [perfil, sacola]
 
 function IconeHeader() {
     return (
-        <ul classname="icones">
+        <ul className="icones">
             {icones.map((icone) => (
-                <li classname="icone"><img src={icone}></img></li>
+                <li className="icone"><img src={icone}></img></li>
             ))}
         </ul>
     )
